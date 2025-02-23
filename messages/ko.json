@@ -16,7 +16,9 @@
   },
   "Navigation": {
     "home": "홈",
-    "pathnames": "경로명"
+    "pathnames": "경로명",
+    "about": "회사 소개",
+    "contact": "문의하기"
   },
   "NotFoundPage": {
     "description": "브라우저 주소창을 다시 확인하거나 네비게이션을 통해 알려진 페이지로 이동하세요.",
@@ -49,5 +51,46 @@
     "terms": "이용약관",
     "social": "소셜 미디어",
     "copyright": "© {year} 회사명. 모든 권리 보유."
+  },
+  "AboutPage": {
+    "title": "회사 소개",
+    "description": "우리 회사에 오신 것을 환영합니다. 우리는 우수한 서비스와 혁신적인 솔루션을 제공하기 위해 노력하고 있습니다.",
+    "mission": {
+      "title": "미션",
+      "text": "기업과 개인이 목표를 달성할 수 있도록 높은 품질의 솔루션을 제공합니다."
+    },
+    "vision": {
+      "title": "비전",
+      "text": "고객 만족에 대한 약속을 지키면서 혁신적인 기술 솔루션 분야의 글로벌 리더가 되는 것입니다."
+    },
+    "values": {
+      "title": "핵심 가치",
+      "innovation": "혁신",
+      "integrity": "정직",
+      "excellence": "탁월함",
+      "collaboration": "협력"
+    }
+  },
+  "ContactPage": {
+    "title": "문의하기",
+    "description": "궁금하신 점이 있으신가요? 메시지를 보내주시면 최대한 빨리 답변 드리도록 하겠습니다.",
+    "form": {
+      "name": "이름",
+      "email": "이메일",
+      "subject": "제목",
+      "message": "메시지",
+      "submit": "메시지 보내기",
+      "namePlaceholder": "이름을 입력해주세요",
+      "emailPlaceholder": "이메일 주소를 입력해주세요",
+      "subjectPlaceholder": "어떤 도움이 필요하신가요?",
+      "messagePlaceholder": "메시지를 입력해주세요..."
+    },
+    "info": {
+      "title": "연락처 정보",
+      "address": "서울특별시 강남구 테헤란로 123, 100층",
+      "phone": "전화: 02-1234-5678",
+      "email": "이메일: contact@example.com",
+      "hours": "운영시간: 월-금 오전 9시 - 오후 6시"
+    }
   }
 }

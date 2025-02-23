@@ -47,11 +47,25 @@ export default function MobileMenu() {
                 {t('home')}
               </Link>
               <Link
+                href="/about"
+                className="block py-2 hover:text-gray-600"
+                onClick={() => setIsOpen(false)}
+              >
+                {t('about')}
+              </Link>
+              <Link
                 href="/pathnames"
                 className="block py-2 hover:text-gray-600"
                 onClick={() => setIsOpen(false)}
               >
                 {t('pathnames')}
+              </Link>
+              <Link
+                href="/contact"
+                className="block py-2 hover:text-gray-600"
+                onClick={() => setIsOpen(false)}
+              >
+                {t('contact')}
               </Link>
               <div className="py-2">
                 <LocaleSwitcher />

@@ -9,6 +9,14 @@ export const routing = defineRouting({
     '/pathnames': {
       en: '/pathnames',
       ko: '/경로'
+    },
+    '/about': {
+      en: '/about',
+      ko: '/회사소개'
+    },
+    '/contact': {
+      en: '/contact',
+      ko: '/문의'
     }
   }
 });

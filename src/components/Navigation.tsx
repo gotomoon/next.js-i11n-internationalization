@@ -16,6 +16,12 @@ export default function Navigation() {
             <Link href="/" className="text-base hover:text-gray-600">
               {t('home')}
             </Link>
+            <Link href="/about" className="text-base hover:text-gray-600">
+              {t('about')}
+            </Link>
+            <Link href="/contact" className="text-base hover:text-gray-600">
+              {t('contact')}
+            </Link>
             <Link
               href="/pathnames"
               className="hidden md:inline-block text-base hover:text-gray-600"

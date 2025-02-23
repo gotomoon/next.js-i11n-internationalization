@@ -19,7 +19,9 @@
   },
   "Navigation": {
     "home": "Home",
-    "pathnames": "Pathnames"
+    "pathnames": "Pathnames",
+    "about": "About",
+    "contact": "Contact"
   },
   "NotFoundPage": {
     "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
@@ -52,5 +54,46 @@
     "terms": "Terms of Service",
     "social": "Social Media",
     "copyright": "© {year} Your Company Name. All rights reserved."
+  },
+  "AboutPage": {
+    "title": "About Us",
+    "description": "Welcome to our company. We are dedicated to providing excellent service and innovative solutions.",
+    "mission": {
+      "title": "Our Mission",
+      "text": "To deliver high-quality solutions that empower businesses and individuals to achieve their goals."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "text": "To become a global leader in innovative technology solutions while maintaining our commitment to customer satisfaction."
+    },
+    "values": {
+      "title": "Our Values",
+      "innovation": "Innovation",
+      "integrity": "Integrity",
+      "excellence": "Excellence",
+      "collaboration": "Collaboration"
+    }
+  },
+  "ContactPage": {
+    "title": "Contact Us",
+    "description": "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your.email@example.com",
+      "subjectPlaceholder": "How can we help you?",
+      "messagePlaceholder": "Your message here..."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "123 Business Street, Suite 100, City, Country",
+      "phone": "Phone: +1 234 567 8900",
+      "email": "Email: contact@example.com",
+      "hours": "Business Hours: Mon-Fri 9:00 AM - 6:00 PM"
+    }
   }
 }
