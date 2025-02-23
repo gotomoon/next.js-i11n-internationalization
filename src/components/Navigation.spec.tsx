@@ -1,4 +1,4 @@
-import {render} from '@testing-library/react';
+import {render, screen} from '@testing-library/react';
 import pick from 'lodash/pick';
 import {NextIntlClientProvider} from 'next-intl';
 import messages from '../../messages/en.json';
@@ -19,13 +19,27 @@ jest.mock('next/navigation', () => ({
   useSelectedLayoutSegment: () => ({locale: 'en'})
 }));
 
-it('renders', () => {
-  render(
-    <NextIntlClientProvider
-      locale="en"
-      messages={pick(messages, ['Navigation', 'LocaleSwitcher'])}
-    >
-      <Navigation />
-    </NextIntlClientProvider>
-  );
+describe('Navigation', () => {
+  it('renders navigation with mobile menu', () => {
+    render(
+      <NextIntlClientProvider
+        locale="en"
+        messages={{
+          Navigation: messages.Navigation,
+          LocaleSwitcher: messages.LocaleSwitcher
+        }}
+      >
+        <Navigation />
+      </NextIntlClientProvider>
+    );
+
+    // Check if mobile menu button exists
+    expect(screen.getByLabelText('Toggle menu')).toBeInTheDocument();
+
+    // Check if desktop navigation is hidden on mobile
+    expect(screen.getByText(messages.Navigation.pathnames)).toHaveClass(
+      'hidden',
+      'md:inline-block'
+    );
+  });
 });
