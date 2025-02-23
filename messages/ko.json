@@ -18,7 +18,8 @@
     "home": "홈",
     "pathnames": "경로명",
     "about": "회사 소개",
-    "contact": "문의하기"
+    "contact": "문의하기",
+    "newPage": "새 페이지"
   },
   "NotFoundPage": {
     "description": "브라우저 주소창을 다시 확인하거나 네비게이션을 통해 알려진 페이지로 이동하세요.",
@@ -92,5 +93,9 @@
       "email": "이메일: contact@example.com",
       "hours": "운영시간: 월-금 오전 9시 - 오후 6시"
     }
+  },
+  "NewPage": {
+    "title": "새 페이지 제목",
+    "description": "페이지 설명..."
   }
 }

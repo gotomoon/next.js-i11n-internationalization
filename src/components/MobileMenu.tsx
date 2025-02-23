@@ -67,6 +67,13 @@ export default function MobileMenu() {
               >
                 {t('contact')}
               </Link>
+              <Link
+                href="/new-page"
+                className="block py-2 hover:text-gray-600"
+                onClick={() => setIsOpen(false)}
+              >
+                {t('newPage')}
+              </Link>
               <div className="py-2">
                 <LocaleSwitcher />
               </div>

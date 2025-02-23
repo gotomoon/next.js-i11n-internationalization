@@ -17,6 +17,10 @@ export const routing = defineRouting({
     '/contact': {
       en: '/contact',
       ko: '/문의'
+    },
+    '/new-page': {
+      en: '/new-page',
+      ko: '/새페이지'
     }
   }
 });

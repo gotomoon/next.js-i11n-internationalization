@@ -28,6 +28,9 @@ export default function Navigation() {
             >
               {t('pathnames')}
             </Link>
+            <Link href="/new-page" className="text-base hover:text-gray-600">
+              {t('newPage')}
+            </Link>
           </div>
 
           {/* Desktop Language Switcher */}

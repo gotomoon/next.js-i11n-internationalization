@@ -21,7 +21,8 @@
     "home": "Home",
     "pathnames": "Pathnames",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "newPage": "New Page"
   },
   "NotFoundPage": {
     "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
@@ -95,5 +96,9 @@
       "email": "Email: contact@example.com",
       "hours": "Business Hours: Mon-Fri 9:00 AM - 6:00 PM"
     }
+  },
+  "NewPage": {
+    "title": "New Page Title",
+    "description": "Page description..."
   }
 }
