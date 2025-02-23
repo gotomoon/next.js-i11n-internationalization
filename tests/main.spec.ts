@@ -35,7 +35,7 @@ it("handles not found pages for routes that don't match the middleware", async (
 });
 
 it('sets caching headers', async ({request}) => {
-  for (const pathname of ['/en', '/en/pathnames', '/ko', '/ko/pfadnamen']) {
+  for (const pathname of ['/en', '/en/pathnames', '/ko', '/ko/경로']) {
     expect((await request.get(pathname)).headers()['cache-control']).toBe(
       's-maxage=31536000, stale-while-revalidate'
     );
@@ -118,12 +118,12 @@ it('serves a sitemap.xml', async ({page}) => {
 <url>
 <loc>http://localhost:3000/en/pathnames</loc>
 <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/pathnames" />
-<xhtml:link rel="alternate" hreflang="ko" href="http://localhost:3000/ko/pfadnamen" />
+<xhtml:link rel="alternate" hreflang="ko" href="http://localhost:3000/ko/경로" />
 </url>
 <url>
-<loc>http://localhost:3000/ko/pfadnamen</loc>
+<loc>http://localhost:3000/ko/경로</loc>
 <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/pathnames" />
-<xhtml:link rel="alternate" hreflang="ko" href="http://localhost:3000/ko/pfadnamen" />
+<xhtml:link rel="alternate" hreflang="ko" href="http://localhost:3000/ko/경로" />
 </url>
 </urlset>
 `

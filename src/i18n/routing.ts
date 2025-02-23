@@ -8,7 +8,7 @@ export const routing = defineRouting({
     '/': '/',
     '/pathnames': {
       en: '/pathnames',
-      ko: '/kyungro'
+      ko: '/경로'
     }
   }
 });
