@@ -1,11 +1,21 @@
-# example-app-router
+# Next.js Internationalization (i11n)
 
-An example that showcases basic usage of `next-intl` with the App Router, including internationalized routing.
+You can use this project as a starting template for a Next.js multilingual website project.
 
-[Demo](https://next-intl-example-app-router.vercel.app/)
+This project has following features
 
-## Deploy your own
+- Implementation of Next.js native "App Router" for scalability and SEO
+- Lanuage switcher that just works
+- Localized slugs (Localized URLs) to maximize SEO
+  (including Unicode handling of Chinese, Japanese, and Korean characters)
 
-By deploying to [Vercel](https://vercel.com), you can check out the example in action. Note that you'll be prompted to create a new GitHub repository as part of this, allowing you to make subsequent changes.
+| Language | URL                          |
+| -------- | ---------------------------- |
+| English  | `example.com/about`          |
+| Korean   | `example.com/소개`           |
+| Chinese  | `example.com/介绍`           |
+| Japanese | `example.com/紹介`           |
+| Spanish  | `example.com/sobre-nosotros` |
+| French   | `example.com/a-propos`       |
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/amannn/next-intl/tree/main/examples/example-app-router)
+- Standard layout with header, footer, and mobile navigation that just work
