@@ -19,3 +19,5 @@ This project has following features
 | French   | `example.com/a-propos`       |
 
 - Standard layout with header, footer, and mobile navigation that just work
+
+**DEMO: https://next-js-i11n-internationalization.vercel.app**
