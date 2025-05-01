@@ -22,7 +22,8 @@
     "pathnames": "Pathnames",
     "about": "About",
     "contact": "Contact",
-    "newPage": "New Page"
+    "newPage": "New Page",
+    "githubSource": "Github Source"
   },
   "NotFoundPage": {
     "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
@@ -37,7 +38,7 @@
       },
       "source": {
         "description": "Browse the source code of this example on GitHub.",
-        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "href": "https://github.com/gotomoon/next.js-i11n-internationalization",
         "title": "Source code"
       }
     }

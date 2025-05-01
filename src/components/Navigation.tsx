@@ -31,6 +31,14 @@ export default function Navigation() {
             <Link href="/new-page" className="text-base hover:text-gray-600">
               {t('newPage')}
             </Link>
+            <a
+              href="https://github.com/gotomoon/next.js-i11n-internationalization"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base hover:text-gray-600 border border-gray-300 rounded px-3 py-1 ml-2"
+            >
+              {t('githubSource')}
+            </a>
           </div>
 
           {/* Desktop Language Switcher */}
